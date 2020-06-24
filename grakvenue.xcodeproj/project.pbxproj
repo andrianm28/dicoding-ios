@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390BE8A724A3814500E0FB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8A624A3814500E0FB5A /* AppDelegate.swift */; };
+		390BE8A924A3814500E0FB5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8A824A3814500E0FB5A /* SceneDelegate.swift */; };
+		390BE8AB24A3814500E0FB5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8AA24A3814500E0FB5A /* ContentView.swift */; };
+		390BE8AD24A3814800E0FB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8AC24A3814800E0FB5A /* Assets.xcassets */; };
+		390BE8B024A3814800E0FB5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8AF24A3814800E0FB5A /* Preview Assets.xcassets */; };
+		390BE8B324A3814800E0FB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8B124A3814800E0FB5A /* LaunchScreen.storyboard */; };
+		390BE8BE24A3817E00E0FB5A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8BD24A3817E00E0FB5A /* Data.swift */; };
+		390BE8C024A381D700E0FB5A /* SportVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8BF24A381D700E0FB5A /* SportVenue.swift */; };
+		390BE8D024A382D400E0FB5A /* lampungwalk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C224A382D400E0FB5A /* lampungwalk.jpg */; };
+		390BE8D124A382D400E0FB5A /* intergandafutsalarena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C324A382D400E0FB5A /* intergandafutsalarena.jpg */; };
+		390BE8D224A382D400E0FB5A /* goldenboyfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C424A382D400E0FB5A /* goldenboyfutsal.jpg */; };
+		390BE8D324A382D400E0FB5A /* kartikafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C524A382D400E0FB5A /* kartikafutsal.jpg */; };
+		390BE8D424A382D400E0FB5A /* harmonifutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C624A382D400E0FB5A /* harmonifutsal.jpg */; };
+		390BE8D524A382D400E0FB5A /* srikandifutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C724A382D400E0FB5A /* srikandifutsal.jpg */; };
+		390BE8D624A382D400E0FB5A /* rayafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C824A382D400E0FB5A /* rayafutsal.jpg */; };
+		390BE8D724A382D400E0FB5A /* garudafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C924A382D400E0FB5A /* garudafutsal.jpg */; };
+		390BE8D924A382D400E0FB5A /* alshafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CB24A382D400E0FB5A /* alshafutsal.jpg */; };
+		390BE8DA24A382D400E0FB5A /* lacentrofutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CC24A382D400E0FB5A /* lacentrofutsal.jpg */; };
+		390BE8DB24A382D400E0FB5A /* intanfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CD24A382D400E0FB5A /* intanfutsal.jpg */; };
+		390BE8DC24A382D400E0FB5A /* azkafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CE24A382D400E0FB5A /* azkafutsal.jpg */; };
+		390BE8DD24A382D400E0FB5A /* lampungfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CF24A382D400E0FB5A /* lampungfutsal.jpg */; };
+		390BE8DF24A382E200E0FB5A /* sport-venue.json in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8DE24A382E200E0FB5A /* sport-venue.json */; };
+		390BE8E124A3832700E0FB5A /* VenueDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E024A3832700E0FB5A /* VenueDetail.swift */; };
+		390BE8E324A3838A00E0FB5A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E224A3838A00E0FB5A /* MapView.swift */; };
+		390BE8E724A3876900E0FB5A /* VenueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E624A3876900E0FB5A /* VenueRow.swift */; };
+		390BE8E924A38B7E00E0FB5A /* VenueRList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E824A38B7E00E0FB5A /* VenueRList.swift */; };
+		39FE06A324A392530046CDAD /* thedomesportarena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39FE06A224A392530046CDAD /* thedomesportarena.jpg */; };
+		39FE06A524A3B52E0046CDAD /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE06A424A3B52E0046CDAD /* ProfileDetail.swift */; };
+		39FE06AB24A3D2780046CDAD /* ProfileHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE06AA24A3D2780046CDAD /* ProfileHero.swift */; };
+		39FE06AF24A3E51B0046CDAD /* VenueColoumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE06AE24A3E51B0046CDAD /* VenueColoumn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		390BE8A324A3814500E0FB5A /* grakvenue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grakvenue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390BE8A624A3814500E0FB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		390BE8A824A3814500E0FB5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		390BE8AA24A3814500E0FB5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		390BE8AC24A3814800E0FB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390BE8AF24A3814800E0FB5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		390BE8B224A3814800E0FB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		390BE8B424A3814800E0FB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390BE8BD24A3817E00E0FB5A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		390BE8BF24A381D700E0FB5A /* SportVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportVenue.swift; sourceTree = "<group>"; };
+		390BE8C224A382D400E0FB5A /* lampungwalk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lampungwalk.jpg; path = "../../../../../Downloads/sport-venue-image/lampungwalk.jpg"; sourceTree = "<group>"; };
+		390BE8C324A382D400E0FB5A /* intergandafutsalarena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = intergandafutsalarena.jpg; path = "../../../../../Downloads/sport-venue-image/intergandafutsalarena.jpg"; sourceTree = "<group>"; };
+		390BE8C424A382D400E0FB5A /* goldenboyfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = goldenboyfutsal.jpg; path = "../../../../../Downloads/sport-venue-image/goldenboyfutsal.jpg"; sourceTree = "<group>"; };
+		390BE8C524A382D400E0FB5A /* kartikafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kartikafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/kartikafutsal.jpg"; sourceTree = "<group>"; };
+		390BE8C624A382D400E0FB5A /* harmonifutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = harmonifutsal.jpg; path = "../../../../../Downloads/sport-venue-image/harmonifutsal.jpg"; sourceTree = "<group>"; };
+		390BE8C724A382D400E0FB5A /* srikandifutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = srikandifutsal.jpg; path = "../../../../../Downloads/sport-venue-image/srikandifutsal.jpg"; sourceTree = "<group>"; };
+		390BE8C824A382D400E0FB5A /* rayafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rayafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/rayafutsal.jpg"; sourceTree = "<group>"; };
+		390BE8C924A382D400E0FB5A /* garudafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = garudafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/garudafutsal.jpg"; sourceTree = "<group>"; };
+		390BE8CB24A382D400E0FB5A /* alshafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alshafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/alshafutsal.jpg"; sourceTree = "<group>"; };
+		390BE8CC24A382D400E0FB5A /* lacentrofutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lacentrofutsal.jpg; path = "../../../../../Downloads/sport-venue-image/lacentrofutsal.jpg"; sourceTree = "<group>"; };
+		390BE8CD24A382D400E0FB5A /* intanfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = intanfutsal.jpg; path = "../../../../../Downloads/sport-venue-image/intanfutsal.jpg"; sourceTree = "<group>"; };
+		390BE8CE24A382D400E0FB5A /* azkafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = azkafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/azkafutsal.jpg"; sourceTree = "<group>"; };
+		390BE8CF24A382D400E0FB5A /* lampungfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lampungfutsal.jpg; path = "../../../../../Downloads/sport-venue-image/lampungfutsal.jpg"; sourceTree = "<group>"; };
+		390BE8DE24A382E200E0FB5A /* sport-venue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sport-venue.json"; path = "../../../../sport-venue.json"; sourceTree = "<group>"; };
+		390BE8E024A3832700E0FB5A /* VenueDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetail.swift; sourceTree = "<group>"; };
+		390BE8E224A3838A00E0FB5A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		390BE8E624A3876900E0FB5A /* VenueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRow.swift; sourceTree = "<group>"; };
+		390BE8E824A38B7E00E0FB5A /* VenueRList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRList.swift; sourceTree = "<group>"; };
+		39FE06A224A392530046CDAD /* thedomesportarena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thedomesportarena.jpg; path = "../../../../../Downloads/sport-venue-image/thedomesportarena.jpg"; sourceTree = "<group>"; };
+		39FE06A424A3B52E0046CDAD /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
+		39FE06AA24A3D2780046CDAD /* ProfileHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHero.swift; sourceTree = "<group>"; };
+		39FE06AE24A3E51B0046CDAD /* VenueColoumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueColoumn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390BE8A024A3814500E0FB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390BE89A24A3814500E0FB5A = {
+			isa = PBXGroup;
+			children = (
+				390BE8A524A3814500E0FB5A /* grakvenue */,
+				390BE8A424A3814500E0FB5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		390BE8A424A3814500E0FB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8A324A3814500E0FB5A /* grakvenue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390BE8A524A3814500E0FB5A /* grakvenue */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8C124A382A300E0FB5A /* Resources */,
+				390BE8BA24A3814D00E0FB5A /* Model */,
+				390BE8BB24A3815200E0FB5A /* View */,
+				390BE8BC24A3815E00E0FB5A /* Controller */,
+				390BE8A624A3814500E0FB5A /* AppDelegate.swift */,
+				390BE8A824A3814500E0FB5A /* SceneDelegate.swift */,
+				390BE8AA24A3814500E0FB5A /* ContentView.swift */,
+				390BE8AC24A3814800E0FB5A /* Assets.xcassets */,
+				390BE8B124A3814800E0FB5A /* LaunchScreen.storyboard */,
+				390BE8B424A3814800E0FB5A /* Info.plist */,
+				390BE8AE24A3814800E0FB5A /* Preview Content */,
+			);
+			path = grakvenue;
+			sourceTree = "<group>";
+		};
+		390BE8AE24A3814800E0FB5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8AF24A3814800E0FB5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		390BE8BA24A3814D00E0FB5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8BF24A381D700E0FB5A /* SportVenue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		390BE8BB24A3815200E0FB5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8E024A3832700E0FB5A /* VenueDetail.swift */,
+				390BE8E224A3838A00E0FB5A /* MapView.swift */,
+				390BE8E624A3876900E0FB5A /* VenueRow.swift */,
+				390BE8E824A38B7E00E0FB5A /* VenueRList.swift */,
+				39FE06A424A3B52E0046CDAD /* ProfileDetail.swift */,
+				39FE06AA24A3D2780046CDAD /* ProfileHero.swift */,
+				39FE06AE24A3E51B0046CDAD /* VenueColoumn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		390BE8BC24A3815E00E0FB5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8BD24A3817E00E0FB5A /* Data.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		390BE8C124A382A300E0FB5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				390BE8CB24A382D400E0FB5A /* alshafutsal.jpg */,
+				390BE8CE24A382D400E0FB5A /* azkafutsal.jpg */,
+				390BE8C924A382D400E0FB5A /* garudafutsal.jpg */,
+				390BE8C424A382D400E0FB5A /* goldenboyfutsal.jpg */,
+				390BE8C624A382D400E0FB5A /* harmonifutsal.jpg */,
+				39FE06A224A392530046CDAD /* thedomesportarena.jpg */,
+				390BE8CD24A382D400E0FB5A /* intanfutsal.jpg */,
+				390BE8DE24A382E200E0FB5A /* sport-venue.json */,
+				390BE8C324A382D400E0FB5A /* intergandafutsalarena.jpg */,
+				390BE8C524A382D400E0FB5A /* kartikafutsal.jpg */,
+				390BE8CC24A382D400E0FB5A /* lacentrofutsal.jpg */,
+				390BE8CF24A382D400E0FB5A /* lampungfutsal.jpg */,
+				390BE8C224A382D400E0FB5A /* lampungwalk.jpg */,
+				390BE8C824A382D400E0FB5A /* rayafutsal.jpg */,
+				390BE8C724A382D400E0FB5A /* srikandifutsal.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390BE8A224A3814500E0FB5A /* grakvenue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390BE8B724A3814800E0FB5A /* Build configuration list for PBXNativeTarget "grakvenue" */;
+			buildPhases = (
+				390BE89F24A3814500E0FB5A /* Sources */,
+				390BE8A024A3814500E0FB5A /* Frameworks */,
+				390BE8A124A3814500E0FB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grakvenue;
+			productName = grakvenue;
+			productReference = 390BE8A324A3814500E0FB5A /* grakvenue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		390BE89B24A3814500E0FB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = andrianm28;
+				TargetAttributes = {
+					390BE8A224A3814500E0FB5A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 390BE89E24A3814500E0FB5A /* Build configuration list for PBXProject "grakvenue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 390BE89A24A3814500E0FB5A;
+			productRefGroup = 390BE8A424A3814500E0FB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390BE8A224A3814500E0FB5A /* grakvenue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390BE8A124A3814500E0FB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390BE8D724A382D400E0FB5A /* garudafutsal.jpg in Resources */,
+				390BE8D124A382D400E0FB5A /* intergandafutsalarena.jpg in Resources */,
+				390BE8B324A3814800E0FB5A /* LaunchScreen.storyboard in Resources */,
+				390BE8DC24A382D400E0FB5A /* azkafutsal.jpg in Resources */,
+				390BE8DF24A382E200E0FB5A /* sport-venue.json in Resources */,
+				390BE8D024A382D400E0FB5A /* lampungwalk.jpg in Resources */,
+				390BE8D924A382D400E0FB5A /* alshafutsal.jpg in Resources */,
+				390BE8DD24A382D400E0FB5A /* lampungfutsal.jpg in Resources */,
+				390BE8D624A382D400E0FB5A /* rayafutsal.jpg in Resources */,
+				390BE8D524A382D400E0FB5A /* srikandifutsal.jpg in Resources */,
+				390BE8B024A3814800E0FB5A /* Preview Assets.xcassets in Resources */,
+				39FE06A324A392530046CDAD /* thedomesportarena.jpg in Resources */,
+				390BE8DA24A382D400E0FB5A /* lacentrofutsal.jpg in Resources */,
+				390BE8DB24A382D400E0FB5A /* intanfutsal.jpg in Resources */,
+				390BE8D324A382D400E0FB5A /* kartikafutsal.jpg in Resources */,
+				390BE8D424A382D400E0FB5A /* harmonifutsal.jpg in Resources */,
+				390BE8D224A382D400E0FB5A /* goldenboyfutsal.jpg in Resources */,
+				390BE8AD24A3814800E0FB5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390BE89F24A3814500E0FB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FE06AB24A3D2780046CDAD /* ProfileHero.swift in Sources */,
+				39FE06AF24A3E51B0046CDAD /* VenueColoumn.swift in Sources */,
+				390BE8E724A3876900E0FB5A /* VenueRow.swift in Sources */,
+				390BE8E324A3838A00E0FB5A /* MapView.swift in Sources */,
+				39FE06A524A3B52E0046CDAD /* ProfileDetail.swift in Sources */,
+				390BE8A724A3814500E0FB5A /* AppDelegate.swift in Sources */,
+				390BE8C024A381D700E0FB5A /* SportVenue.swift in Sources */,
+				390BE8A924A3814500E0FB5A /* SceneDelegate.swift in Sources */,
+				390BE8AB24A3814500E0FB5A /* ContentView.swift in Sources */,
+				390BE8E124A3832700E0FB5A /* VenueDetail.swift in Sources */,
+				390BE8BE24A3817E00E0FB5A /* Data.swift in Sources */,
+				390BE8E924A38B7E00E0FB5A /* VenueRList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		390BE8B124A3814800E0FB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390BE8B224A3814800E0FB5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		390BE8B524A3814800E0FB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		390BE8B624A3814800E0FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		390BE8B824A3814800E0FB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"grakvenue/Preview Content\"";
+				DEVELOPMENT_TEAM = ARR94C5T3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = grakvenue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrianm28.grakvenue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		390BE8B924A3814800E0FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"grakvenue/Preview Content\"";
+				DEVELOPMENT_TEAM = ARR94C5T3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = grakvenue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrianm28.grakvenue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390BE89E24A3814500E0FB5A /* Build configuration list for PBXProject "grakvenue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390BE8B524A3814800E0FB5A /* Debug */,
+				390BE8B624A3814800E0FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390BE8B724A3814800E0FB5A /* Build configuration list for PBXNativeTarget "grakvenue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390BE8B824A3814800E0FB5A /* Debug */,
+				390BE8B924A3814800E0FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 390BE89B24A3814500E0FB5A /* Project object */;
+}
