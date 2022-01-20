@@ -5,10 +5,7 @@
 //  Created by andrianm28 on 24/06/20.
 //  Copyright © 2020 andrianm28. All rights reserved.
 //
-
 /*
-See LICENSE folder for this sample’s licensing information.
-
 Abstract:
 The model for an individual SportVenue.
 */

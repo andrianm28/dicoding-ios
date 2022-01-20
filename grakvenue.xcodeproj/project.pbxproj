@@ -15,25 +15,26 @@
 		390BE8B324A3814800E0FB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8B124A3814800E0FB5A /* LaunchScreen.storyboard */; };
 		390BE8BE24A3817E00E0FB5A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8BD24A3817E00E0FB5A /* Data.swift */; };
 		390BE8C024A381D700E0FB5A /* SportVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8BF24A381D700E0FB5A /* SportVenue.swift */; };
-		390BE8D024A382D400E0FB5A /* lampungwalk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C224A382D400E0FB5A /* lampungwalk.jpg */; };
-		390BE8D124A382D400E0FB5A /* intergandafutsalarena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C324A382D400E0FB5A /* intergandafutsalarena.jpg */; };
-		390BE8D224A382D400E0FB5A /* goldenboyfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C424A382D400E0FB5A /* goldenboyfutsal.jpg */; };
-		390BE8D324A382D400E0FB5A /* kartikafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C524A382D400E0FB5A /* kartikafutsal.jpg */; };
-		390BE8D424A382D400E0FB5A /* harmonifutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C624A382D400E0FB5A /* harmonifutsal.jpg */; };
-		390BE8D524A382D400E0FB5A /* srikandifutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C724A382D400E0FB5A /* srikandifutsal.jpg */; };
-		390BE8D624A382D400E0FB5A /* rayafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C824A382D400E0FB5A /* rayafutsal.jpg */; };
-		390BE8D724A382D400E0FB5A /* garudafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8C924A382D400E0FB5A /* garudafutsal.jpg */; };
-		390BE8D924A382D400E0FB5A /* alshafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CB24A382D400E0FB5A /* alshafutsal.jpg */; };
-		390BE8DA24A382D400E0FB5A /* lacentrofutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CC24A382D400E0FB5A /* lacentrofutsal.jpg */; };
-		390BE8DB24A382D400E0FB5A /* intanfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CD24A382D400E0FB5A /* intanfutsal.jpg */; };
-		390BE8DC24A382D400E0FB5A /* azkafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CE24A382D400E0FB5A /* azkafutsal.jpg */; };
-		390BE8DD24A382D400E0FB5A /* lampungfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8CF24A382D400E0FB5A /* lampungfutsal.jpg */; };
-		390BE8DF24A382E200E0FB5A /* sport-venue.json in Resources */ = {isa = PBXBuildFile; fileRef = 390BE8DE24A382E200E0FB5A /* sport-venue.json */; };
 		390BE8E124A3832700E0FB5A /* VenueDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E024A3832700E0FB5A /* VenueDetail.swift */; };
 		390BE8E324A3838A00E0FB5A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E224A3838A00E0FB5A /* MapView.swift */; };
 		390BE8E724A3876900E0FB5A /* VenueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E624A3876900E0FB5A /* VenueRow.swift */; };
 		390BE8E924A38B7E00E0FB5A /* VenueRList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE8E824A38B7E00E0FB5A /* VenueRList.swift */; };
-		39FE06A324A392530046CDAD /* thedomesportarena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39FE06A224A392530046CDAD /* thedomesportarena.jpg */; };
+		396B22CD24A42F6500E78F2F /* harmonifutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22BD24A42F6400E78F2F /* harmonifutsal.jpg */; };
+		396B22CE24A42F6500E78F2F /* azkafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22BE24A42F6400E78F2F /* azkafutsal.jpg */; };
+		396B22CF24A42F6500E78F2F /* srikandifutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22BF24A42F6400E78F2F /* srikandifutsal.jpg */; };
+		396B22D024A42F6500E78F2F /* sport-venue.json in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C024A42F6400E78F2F /* sport-venue.json */; };
+		396B22D124A42F6500E78F2F /* garudafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C124A42F6400E78F2F /* garudafutsal.jpg */; };
+		396B22D224A42F6500E78F2F /* thedomesportarena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C224A42F6500E78F2F /* thedomesportarena.jpg */; };
+		396B22D324A42F6500E78F2F /* intergandafutsalarena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C324A42F6500E78F2F /* intergandafutsalarena.jpg */; };
+		396B22D424A42F6500E78F2F /* intanfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C424A42F6500E78F2F /* intanfutsal.jpg */; };
+		396B22D524A42F6500E78F2F /* lampungwalk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C524A42F6500E78F2F /* lampungwalk.jpg */; };
+		396B22D624A42F6500E78F2F /* goldenboyfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C624A42F6500E78F2F /* goldenboyfutsal.jpg */; };
+		396B22D724A42F6500E78F2F /* rayafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C724A42F6500E78F2F /* rayafutsal.jpg */; };
+		396B22D824A42F6500E78F2F /* hero_andrianm28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C824A42F6500E78F2F /* hero_andrianm28.jpg */; };
+		396B22D924A42F6500E78F2F /* alshafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22C924A42F6500E78F2F /* alshafutsal.jpg */; };
+		396B22DA24A42F6500E78F2F /* lacentrofutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22CA24A42F6500E78F2F /* lacentrofutsal.jpg */; };
+		396B22DB24A42F6500E78F2F /* kartikafutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22CB24A42F6500E78F2F /* kartikafutsal.jpg */; };
+		396B22DC24A42F6500E78F2F /* lampungfutsal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396B22CC24A42F6500E78F2F /* lampungfutsal.jpg */; };
 		39FE06A524A3B52E0046CDAD /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE06A424A3B52E0046CDAD /* ProfileDetail.swift */; };
 		39FE06AB24A3D2780046CDAD /* ProfileHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE06AA24A3D2780046CDAD /* ProfileHero.swift */; };
 		39FE06AF24A3E51B0046CDAD /* VenueColoumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE06AE24A3E51B0046CDAD /* VenueColoumn.swift */; };
@@ -50,25 +51,26 @@
 		390BE8B424A3814800E0FB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		390BE8BD24A3817E00E0FB5A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		390BE8BF24A381D700E0FB5A /* SportVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportVenue.swift; sourceTree = "<group>"; };
-		390BE8C224A382D400E0FB5A /* lampungwalk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lampungwalk.jpg; path = "../../../../../Downloads/sport-venue-image/lampungwalk.jpg"; sourceTree = "<group>"; };
-		390BE8C324A382D400E0FB5A /* intergandafutsalarena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = intergandafutsalarena.jpg; path = "../../../../../Downloads/sport-venue-image/intergandafutsalarena.jpg"; sourceTree = "<group>"; };
-		390BE8C424A382D400E0FB5A /* goldenboyfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = goldenboyfutsal.jpg; path = "../../../../../Downloads/sport-venue-image/goldenboyfutsal.jpg"; sourceTree = "<group>"; };
-		390BE8C524A382D400E0FB5A /* kartikafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kartikafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/kartikafutsal.jpg"; sourceTree = "<group>"; };
-		390BE8C624A382D400E0FB5A /* harmonifutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = harmonifutsal.jpg; path = "../../../../../Downloads/sport-venue-image/harmonifutsal.jpg"; sourceTree = "<group>"; };
-		390BE8C724A382D400E0FB5A /* srikandifutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = srikandifutsal.jpg; path = "../../../../../Downloads/sport-venue-image/srikandifutsal.jpg"; sourceTree = "<group>"; };
-		390BE8C824A382D400E0FB5A /* rayafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rayafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/rayafutsal.jpg"; sourceTree = "<group>"; };
-		390BE8C924A382D400E0FB5A /* garudafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = garudafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/garudafutsal.jpg"; sourceTree = "<group>"; };
-		390BE8CB24A382D400E0FB5A /* alshafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alshafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/alshafutsal.jpg"; sourceTree = "<group>"; };
-		390BE8CC24A382D400E0FB5A /* lacentrofutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lacentrofutsal.jpg; path = "../../../../../Downloads/sport-venue-image/lacentrofutsal.jpg"; sourceTree = "<group>"; };
-		390BE8CD24A382D400E0FB5A /* intanfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = intanfutsal.jpg; path = "../../../../../Downloads/sport-venue-image/intanfutsal.jpg"; sourceTree = "<group>"; };
-		390BE8CE24A382D400E0FB5A /* azkafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = azkafutsal.jpg; path = "../../../../../Downloads/sport-venue-image/azkafutsal.jpg"; sourceTree = "<group>"; };
-		390BE8CF24A382D400E0FB5A /* lampungfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lampungfutsal.jpg; path = "../../../../../Downloads/sport-venue-image/lampungfutsal.jpg"; sourceTree = "<group>"; };
-		390BE8DE24A382E200E0FB5A /* sport-venue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sport-venue.json"; path = "../../../../sport-venue.json"; sourceTree = "<group>"; };
 		390BE8E024A3832700E0FB5A /* VenueDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetail.swift; sourceTree = "<group>"; };
 		390BE8E224A3838A00E0FB5A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		390BE8E624A3876900E0FB5A /* VenueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRow.swift; sourceTree = "<group>"; };
 		390BE8E824A38B7E00E0FB5A /* VenueRList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRList.swift; sourceTree = "<group>"; };
-		39FE06A224A392530046CDAD /* thedomesportarena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thedomesportarena.jpg; path = "../../../../../Downloads/sport-venue-image/thedomesportarena.jpg"; sourceTree = "<group>"; };
+		396B22BD24A42F6400E78F2F /* harmonifutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harmonifutsal.jpg; sourceTree = "<group>"; };
+		396B22BE24A42F6400E78F2F /* azkafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azkafutsal.jpg; sourceTree = "<group>"; };
+		396B22BF24A42F6400E78F2F /* srikandifutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = srikandifutsal.jpg; sourceTree = "<group>"; };
+		396B22C024A42F6400E78F2F /* sport-venue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sport-venue.json"; sourceTree = "<group>"; };
+		396B22C124A42F6400E78F2F /* garudafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garudafutsal.jpg; sourceTree = "<group>"; };
+		396B22C224A42F6500E78F2F /* thedomesportarena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thedomesportarena.jpg; sourceTree = "<group>"; };
+		396B22C324A42F6500E78F2F /* intergandafutsalarena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intergandafutsalarena.jpg; sourceTree = "<group>"; };
+		396B22C424A42F6500E78F2F /* intanfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intanfutsal.jpg; sourceTree = "<group>"; };
+		396B22C524A42F6500E78F2F /* lampungwalk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lampungwalk.jpg; sourceTree = "<group>"; };
+		396B22C624A42F6500E78F2F /* goldenboyfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldenboyfutsal.jpg; sourceTree = "<group>"; };
+		396B22C724A42F6500E78F2F /* rayafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rayafutsal.jpg; sourceTree = "<group>"; };
+		396B22C824A42F6500E78F2F /* hero_andrianm28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hero_andrianm28.jpg; sourceTree = "<group>"; };
+		396B22C924A42F6500E78F2F /* alshafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alshafutsal.jpg; sourceTree = "<group>"; };
+		396B22CA24A42F6500E78F2F /* lacentrofutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lacentrofutsal.jpg; sourceTree = "<group>"; };
+		396B22CB24A42F6500E78F2F /* kartikafutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kartikafutsal.jpg; sourceTree = "<group>"; };
+		396B22CC24A42F6500E78F2F /* lampungfutsal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lampungfutsal.jpg; sourceTree = "<group>"; };
 		39FE06A424A3B52E0046CDAD /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
 		39FE06AA24A3D2780046CDAD /* ProfileHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHero.swift; sourceTree = "<group>"; };
 		39FE06AE24A3E51B0046CDAD /* VenueColoumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueColoumn.swift; sourceTree = "<group>"; };
@@ -160,21 +162,22 @@
 		390BE8C124A382A300E0FB5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				390BE8CB24A382D400E0FB5A /* alshafutsal.jpg */,
-				390BE8CE24A382D400E0FB5A /* azkafutsal.jpg */,
-				390BE8C924A382D400E0FB5A /* garudafutsal.jpg */,
-				390BE8C424A382D400E0FB5A /* goldenboyfutsal.jpg */,
-				390BE8C624A382D400E0FB5A /* harmonifutsal.jpg */,
-				39FE06A224A392530046CDAD /* thedomesportarena.jpg */,
-				390BE8CD24A382D400E0FB5A /* intanfutsal.jpg */,
-				390BE8DE24A382E200E0FB5A /* sport-venue.json */,
-				390BE8C324A382D400E0FB5A /* intergandafutsalarena.jpg */,
-				390BE8C524A382D400E0FB5A /* kartikafutsal.jpg */,
-				390BE8CC24A382D400E0FB5A /* lacentrofutsal.jpg */,
-				390BE8CF24A382D400E0FB5A /* lampungfutsal.jpg */,
-				390BE8C224A382D400E0FB5A /* lampungwalk.jpg */,
-				390BE8C824A382D400E0FB5A /* rayafutsal.jpg */,
-				390BE8C724A382D400E0FB5A /* srikandifutsal.jpg */,
+				396B22C924A42F6500E78F2F /* alshafutsal.jpg */,
+				396B22BE24A42F6400E78F2F /* azkafutsal.jpg */,
+				396B22C124A42F6400E78F2F /* garudafutsal.jpg */,
+				396B22C624A42F6500E78F2F /* goldenboyfutsal.jpg */,
+				396B22BD24A42F6400E78F2F /* harmonifutsal.jpg */,
+				396B22C824A42F6500E78F2F /* hero_andrianm28.jpg */,
+				396B22C424A42F6500E78F2F /* intanfutsal.jpg */,
+				396B22C324A42F6500E78F2F /* intergandafutsalarena.jpg */,
+				396B22CB24A42F6500E78F2F /* kartikafutsal.jpg */,
+				396B22CA24A42F6500E78F2F /* lacentrofutsal.jpg */,
+				396B22CC24A42F6500E78F2F /* lampungfutsal.jpg */,
+				396B22C524A42F6500E78F2F /* lampungwalk.jpg */,
+				396B22C724A42F6500E78F2F /* rayafutsal.jpg */,
+				396B22C024A42F6400E78F2F /* sport-venue.json */,
+				396B22BF24A42F6400E78F2F /* srikandifutsal.jpg */,
+				396B22C224A42F6500E78F2F /* thedomesportarena.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -237,24 +240,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390BE8D724A382D400E0FB5A /* garudafutsal.jpg in Resources */,
-				390BE8D124A382D400E0FB5A /* intergandafutsalarena.jpg in Resources */,
 				390BE8B324A3814800E0FB5A /* LaunchScreen.storyboard in Resources */,
-				390BE8DC24A382D400E0FB5A /* azkafutsal.jpg in Resources */,
-				390BE8DF24A382E200E0FB5A /* sport-venue.json in Resources */,
-				390BE8D024A382D400E0FB5A /* lampungwalk.jpg in Resources */,
-				390BE8D924A382D400E0FB5A /* alshafutsal.jpg in Resources */,
-				390BE8DD24A382D400E0FB5A /* lampungfutsal.jpg in Resources */,
-				390BE8D624A382D400E0FB5A /* rayafutsal.jpg in Resources */,
-				390BE8D524A382D400E0FB5A /* srikandifutsal.jpg in Resources */,
+				396B22D524A42F6500E78F2F /* lampungwalk.jpg in Resources */,
+				396B22D624A42F6500E78F2F /* goldenboyfutsal.jpg in Resources */,
+				396B22CD24A42F6500E78F2F /* harmonifutsal.jpg in Resources */,
+				396B22D224A42F6500E78F2F /* thedomesportarena.jpg in Resources */,
+				396B22DC24A42F6500E78F2F /* lampungfutsal.jpg in Resources */,
+				396B22DA24A42F6500E78F2F /* lacentrofutsal.jpg in Resources */,
+				396B22D124A42F6500E78F2F /* garudafutsal.jpg in Resources */,
+				396B22D924A42F6500E78F2F /* alshafutsal.jpg in Resources */,
+				396B22D424A42F6500E78F2F /* intanfutsal.jpg in Resources */,
 				390BE8B024A3814800E0FB5A /* Preview Assets.xcassets in Resources */,
-				39FE06A324A392530046CDAD /* thedomesportarena.jpg in Resources */,
-				390BE8DA24A382D400E0FB5A /* lacentrofutsal.jpg in Resources */,
-				390BE8DB24A382D400E0FB5A /* intanfutsal.jpg in Resources */,
-				390BE8D324A382D400E0FB5A /* kartikafutsal.jpg in Resources */,
-				390BE8D424A382D400E0FB5A /* harmonifutsal.jpg in Resources */,
-				390BE8D224A382D400E0FB5A /* goldenboyfutsal.jpg in Resources */,
+				396B22D324A42F6500E78F2F /* intergandafutsalarena.jpg in Resources */,
+				396B22CF24A42F6500E78F2F /* srikandifutsal.jpg in Resources */,
+				396B22DB24A42F6500E78F2F /* kartikafutsal.jpg in Resources */,
+				396B22D824A42F6500E78F2F /* hero_andrianm28.jpg in Resources */,
+				396B22CE24A42F6500E78F2F /* azkafutsal.jpg in Resources */,
 				390BE8AD24A3814800E0FB5A /* Assets.xcassets in Resources */,
+				396B22D024A42F6500E78F2F /* sport-venue.json in Resources */,
+				396B22D724A42F6500E78F2F /* rayafutsal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				DEVELOPMENT_TEAM = ARR94C5T3Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = grakvenue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +442,7 @@
 				DEVELOPMENT_TEAM = ARR94C5T3Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = grakvenue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

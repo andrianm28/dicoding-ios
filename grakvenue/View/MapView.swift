@@ -32,12 +32,6 @@ struct MapView: UIViewRepresentable {
         uiView.setRegion(region, animated: true)
         uiView.addAnnotation(pin)
     }
-//    func setPinUsingMKPlacemark(location: CLLocationCoordinate2D) {
-//       let pin = MKPlacemark(coordinate: location)
-//       let coordinateRegion = MKCoordinateRegion(center: pin.coordinate, latitudinalMeters: 800, longitudinalMeters: 800)
-//       uiView.setRegion(coordinateRegion, animated: true)
-//       mapView.addAnnotation(pin)
-//    }
 }
 
 struct MapView_Previews: PreviewProvider {

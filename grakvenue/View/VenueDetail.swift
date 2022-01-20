@@ -13,7 +13,6 @@ struct VenueDetail: View {
     var body: some View {
         NavigationView {
             ScrollView (.vertical){
-                
                 venue.image.resizable()
                     .frame(height: UIScreen.main.bounds.size.height/3)
                     .cornerRadius(10)
@@ -60,7 +59,7 @@ struct VenueDetail: View {
                 }
                 .padding(.leading, -20)
                 .padding(.trailing,-20)
-                .frame(height: UIScreen.main.bounds.size.height/4)
+                .frame(height: 300)
                 
             }
         }
